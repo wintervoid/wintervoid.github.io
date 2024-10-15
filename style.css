@@ -1,0 +1,30 @@
+/* styles.css */
+body {
+    font-family: 'Jetbrains Mono', sans-serif;
+    line-height: 1.5;
+    margin: 10px;
+    background-color: #f4f4f4;
+}
+h1 {
+    color: #333;
+    margin-bottom: 0px;
+}
+h2 {
+    margin-top: 0;
+    font-size: small;
+}
+h3 {
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+a {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #0056b3;
+}

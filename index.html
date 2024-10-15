@@ -1,7 +1,69 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=JetBrains+Mono' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+    <style>
+        body {
+            font-family: 'JetBrains Mono';
+            font-size: 22px;
+            display: flex;
+            margin: 0;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            height: 100vh; /* Full height */
+        }
+        .sidebar h2 {
+            margin-top: 0;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sidebar ul li {
+            margin: 15px 0;
+        }
+        .sidebar ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .sidebar ul li a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <div class="sidebar">
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#socials">Socials</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h1>wintervoid</h1>
+        <h2>she/her, 17</h2>
+        <p>It looks like you've stumbled onto my website.</p>
+        
+        <p>You can call me Winter or wintervoid, and I use she/her pronouns. Yes I'm a real girl on the internet. I'm also trans. Don't be weird about that.</p>
+        
+        <p>I'm currently a high school student and beginner programmer. I have taken one year of AP Java but I haven't started any large projects yet. The programming languages I know are Java (like I mentioned, I took AP Java), and I am trying to learn Rust. I also use arch btw.</p>
+        
+        <p>My hobbies and interests are computer science, gaming, music production, and playing guitar. My current favorite game is Team Fortress Two (I'm a pyro main), and my favorite music genre is breakcore. I am also learning how to play Master of Puppets by Metallica on guitar.</p>
+        
+        <p>This website will contain my unhinged and unfiltered rants in the blog section (as well as less unhinged blogs), my latest music releases, and projects I'm working on.</p>
+    </div>
+
 </body>
 </html>
