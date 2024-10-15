@@ -12,8 +12,10 @@
     }
     h2 {
         color: #74c7ec;
-        margin-top: 0;
-        font-size: small;
+        margin-top: 5;
+        margin-bottom: 5;
+
+        
     }
     h3 {
         color: #494848;
@@ -21,11 +23,25 @@
         margin-bottom: 20px;
     }
     .content {
-        font-size: 13   px
+        font-size: 13px
+        
     ; /* or specify a size like 12px or 0.8em */
 .header {
     font-size: 20px;
 }    
+
+
+projects {
+
+        font-size: 15px; /* Make sure to include 'px' */
+        margin-top: 5px; /* Include 'px' for consistency */
+        margin-bottom: 5px; /* Include 'px' for consistency */
+        background-color: #f0f0f0; /* Change to your desired background color */
+        padding: 10px; /* Add padding for spacing inside the box */
+        border-radius: 5px; /* Optional: add rounded corners */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+    }
+    
 }
     
     
