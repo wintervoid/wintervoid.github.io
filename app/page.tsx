@@ -2,20 +2,18 @@ import { BlogPosts } from 'app/components/posts'
 
 export default function Page() {
   return (
-    <section>
-      <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
-      </h1>
-      <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
-      </p>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
-    </section>
+      <section>
+          <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
+              wintervoid </h1>
+          <p className="mb-4">
+              It seems you stumbled across my webpage! I'm an intermediate programmer and a huge fan of Arch Linux.<br/>
+              My current hobbies are music production, gaming (my favorite game is Team Fortress Two), and anything
+              computer-related in general.
+          </p>
+
+          <div className="my-8">
+              <BlogPosts/>
+          </div>
+      </section>
   )
 }
