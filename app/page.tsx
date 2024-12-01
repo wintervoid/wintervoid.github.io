@@ -9,6 +9,7 @@ export default function Page() {
               It seems you stumbled across my webpage! I'm an intermediate programmer and a huge fan of Arch Linux.<br/>
               My current hobbies are music production, gaming (my favorite game is Team Fortress Two), and anything
               computer-related in general.
+              
           </p>
 
           <div className="my-8">
