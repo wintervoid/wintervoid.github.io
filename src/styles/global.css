@@ -1,0 +1,21 @@
+* {
+    font-family: JetBrains Mono, monospace;
+}
+
+body {
+    color: #cdd6f4;
+    background-color: #181825;;
+}
+a{
+    color: #cba6f7
+}
+.header {
+    padding: 1rem 2rem;
+    background-color: #11111b;
+    border-bottom: 3px solid #b4befe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}

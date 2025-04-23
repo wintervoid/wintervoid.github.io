@@ -1,0 +1,27 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  github?: string;
+}
+---
+<article class="card">
+  <h2>{Astro.props.title}</h2>
+  <p>{Astro.props.description}</p>
+  {Astro.props.github && (
+    <a href={Astro.props.github} target="_blank" rel="noopener noreferrer">
+      GitHub
+    </a>
+  )}
+</article>
+
+<style>
+  .card {
+    color: #f5e0dc;
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #313244;
+    border: 3px solid #b4befe;
+    border-radius: 8px;
+  }
+</style>
