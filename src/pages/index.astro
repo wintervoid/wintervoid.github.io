@@ -1,11 +1,25 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
+import Layout from "../layouts/mainlayout.astro";
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+
+const pageTitle = "home";
+const skills = [
+"Linux", 
+"Astro Js",
+"Java",
+];
 ---
 
-<Layout>
-	<Welcome />
+<Layout pageTitle={pageTitle}>
+<p> Hi I'm wintervoid. I'm a computer science student. My hobbies are gaming, programming, and hacking. </p>
+<p>I mostly prefer to do low level stuff with linux but recently I've been trying to learn normal programming and web stuff</p>
+<p>Pronouns: she/they</p>
+<p>Country: United States</p>
+<p>My main skills are:</p>
+<ul>
+  {skills.map(skill => (
+    <li>{skill}</li>
+  ))}
+</ul>
+
 </Layout>
